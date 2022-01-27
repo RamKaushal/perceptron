@@ -56,7 +56,7 @@ class Perceptron:
 
 
 if __name__ == "__main__":
-    perceptron = Perceptron(0.01,15)
+    perceptron = Perceptron(0.05,15)
     x,y = perceptron.peparedata(OR)
     perceptron.fit(x,y)
     
